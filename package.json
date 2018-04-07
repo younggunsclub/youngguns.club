@@ -8,7 +8,7 @@
     "gatsby": "1.9.223",
     "gatsby-plugin-emotion": "1.1.16",
     "gatsby-plugin-react-helmet": "2.0.10",
-    "polished": "^1.9.2",
+    "polished": "1.9.2",
     "react-emotion": "9.1.1",
     "react-helmet": "5.2.0"
   },
