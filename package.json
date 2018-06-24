@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "emotion": "9.1.1",
+    "emotion": "9.2.4",
     "emotion-server": "9.1.1",
     "gatsby": "1.9.223",
     "gatsby-plugin-emotion": "1.1.16",
