@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "emotion": "9.2.4",
-    "emotion-server": "9.1.1",
+    "emotion-server": "9.2.4",
     "gatsby": "1.9.223",
     "gatsby-plugin-emotion": "1.1.16",
     "gatsby-plugin-react-helmet": "2.0.10",
