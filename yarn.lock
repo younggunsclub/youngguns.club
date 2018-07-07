@@ -2113,9 +2113,9 @@ create-emotion-server@^9.2.4:
     multipipe "^1.0.2"
     through "^2.3.8"
 
-create-emotion-styled@^9.2.3:
-  version "9.2.3"
-  resolved "https://registry.yarnpkg.com/create-emotion-styled/-/create-emotion-styled-9.2.3.tgz#17fb13b3ae4c165ea6e5a11356ab8b9ca1dad9c5"
+create-emotion-styled@^9.2.5:
+  version "9.2.5"
+  resolved "https://registry.yarnpkg.com/create-emotion-styled/-/create-emotion-styled-9.2.5.tgz#3f555365710233f0f26831d1ecf0b8ef760d4b2a"
   dependencies:
     "@emotion/is-prop-valid" "^0.6.1"
 
@@ -6526,12 +6526,12 @@ react-dom@^15.6.0:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
-react-emotion@9.2.4:
-  version "9.2.4"
-  resolved "https://registry.yarnpkg.com/react-emotion/-/react-emotion-9.2.4.tgz#98e00f70ce2ca4ee13923460123e763e492c013a"
+react-emotion@9.2.5:
+  version "9.2.5"
+  resolved "https://registry.yarnpkg.com/react-emotion/-/react-emotion-9.2.5.tgz#0e40edf062d7eea260d4327a9fe27288ec83835e"
   dependencies:
-    babel-plugin-emotion "^9.2.4"
-    create-emotion-styled "^9.2.3"
+    babel-plugin-emotion "^9.2.5"
+    create-emotion-styled "^9.2.5"
 
 react-error-overlay@^3.0.0:
   version "3.0.0"
