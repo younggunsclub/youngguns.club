@@ -650,23 +650,6 @@ babel-plugin-check-es2015-constants@^6.22.0, babel-plugin-check-es2015-constants
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-emotion@^9.2.5:
-  version "9.2.5"
-  resolved "https://registry.yarnpkg.com/babel-plugin-emotion/-/babel-plugin-emotion-9.2.5.tgz#0046e03be5c16276f85380476f88c9fcbf7c9536"
-  dependencies:
-    "@babel/helper-module-imports" "7.0.0-beta.51"
-    "@emotion/babel-utils" "^0.6.4"
-    "@emotion/hash" "^0.6.2"
-    "@emotion/memoize" "^0.6.1"
-    "@emotion/stylis" "^0.6.10"
-    babel-plugin-macros "^2.0.0"
-    babel-plugin-syntax-jsx "^6.18.0"
-    convert-source-map "^1.5.0"
-    find-root "^1.1.0"
-    mkdirp "^0.5.1"
-    source-map "^0.5.7"
-    touch "^1.0.0"
-
 babel-plugin-emotion@^9.2.6:
   version "9.2.6"
   resolved "https://registry.yarnpkg.com/babel-plugin-emotion/-/babel-plugin-emotion-9.2.6.tgz#992d48f316c20610c28a95ae90e6bd193014eec5"
@@ -3368,9 +3351,9 @@ gatsby-cli@^1.1.58:
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
-gatsby-link@^1.6.45:
-  version "1.6.45"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.45.tgz#6a28d377cd9eee4bf5454be5a9292550b5d1d929"
+gatsby-link@^1.6.46:
+  version "1.6.46"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.46.tgz#1f9f6bd7a4d448a856c2035e54f2263d7933f4fd"
   dependencies:
     "@types/history" "^4.6.2"
     "@types/react-router-dom" "^4.2.2"
@@ -3417,9 +3400,9 @@ gatsby-react-router-scroll@^1.0.18:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby@1.9.273:
-  version "1.9.273"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.273.tgz#bf3d685cbd5112a55514ca0450888d2da95d4444"
+gatsby@1.9.274:
+  version "1.9.274"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.274.tgz#02faa1b2f077e9d80232037b3a39075f10d14416"
   dependencies:
     async "^2.1.2"
     babel-code-frame "^6.22.0"
@@ -3462,7 +3445,7 @@ gatsby@1.9.273:
     gatsby-1-config-css-modules "^1.0.11"
     gatsby-1-config-extract-plugin "^1.0.3"
     gatsby-cli "^1.1.58"
-    gatsby-link "^1.6.45"
+    gatsby-link "^1.6.46"
     gatsby-module-loader "^1.0.11"
     gatsby-plugin-page-creator "^1.0.1"
     gatsby-react-router-scroll "^1.0.18"
