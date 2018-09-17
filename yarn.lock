@@ -2657,11 +2657,11 @@ emotion-server@9.2.9:
   dependencies:
     create-emotion-server "^9.2.9"
 
-emotion@9.2.8:
-  version "9.2.8"
-  resolved "https://registry.yarnpkg.com/emotion/-/emotion-9.2.8.tgz#b89e754be1a109f4e47ff0031928f94e40d7984a"
+emotion@9.2.9:
+  version "9.2.9"
+  resolved "https://registry.yarnpkg.com/emotion/-/emotion-9.2.9.tgz#c2028705acc60a138ecb69d3fc1d2056764f61a1"
   dependencies:
-    babel-plugin-emotion "^9.2.8"
+    babel-plugin-emotion "^9.2.9"
     create-emotion "^9.2.6"
 
 encodeurl@~1.0.2:
