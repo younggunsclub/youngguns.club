@@ -1,31 +1,31 @@
 {
-  "name": "young-guns-website",
+  "name": "@younggunsclub/website",
   "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "emotion": "9.2.12",
-    "emotion-server": "9.2.12",
-    "gatsby": "1.9.279",
-    "gatsby-plugin-emotion": "1.1.17",
-    "gatsby-plugin-react-helmet": "2.0.11",
-    "polished": "3.4.1",
-    "react-emotion": "9.2.12",
-    "react-helmet": "5.2.1"
+  "engines": {
+    "node": "12.x"
   },
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "yarn now",
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint --ext .ts,.tsx .",
+    "start": "next start",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "dependencies": {
+    "next": "9.3.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-jsx": "3.2.5"
   },
   "devDependencies": {
-    "prettier": "1.18.2"
-  },
-  "renovate": {
-    "pinVersions": true,
-    "semanticCommits": true,
-    "prCreation": "not-pending",
-    "automerge": "minor",
-    "unpublishSafe": true
+    "@denkristoffer/eslint-config": "4.0.0",
+    "@types/node": "12.12.35",
+    "@types/react": "16.9.34",
+    "eslint": "6.8.0",
+    "now": "17.1.1",
+    "prettier": "2.0.4",
+    "typescript": "3.8.3"
   }
 }
