@@ -1,0 +1,16 @@
+{
+  "alias": [
+    "www.youngguns.club"
+  ],
+  "routes": [
+    {
+      "src": ".*",
+      "headers": {
+        "Location": "https://youngguns.club",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "status": 301
+    }
+  ],
+  "version": 2
+}
