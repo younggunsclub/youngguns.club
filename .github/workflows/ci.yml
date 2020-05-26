@@ -21,6 +21,7 @@ jobs:
         cd youngguns.club
         yarn install --frozen-lockfile
         yarn build
+        yarn lint
         yarn typecheck
       env:
         CI: true
