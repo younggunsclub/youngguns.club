@@ -23,7 +23,7 @@
     "@types/node": "12.12.59",
     "@types/react": "16.9.49",
     "eslint": "6.8.0",
-    "prettier": "2.1.1",
+    "prettier": "2.1.2",
     "typescript": "3.9.7"
   }
 }
