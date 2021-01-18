@@ -16,7 +16,7 @@
     "next": "10.0.5",
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "styled-jsx": "3.3.3"
+    "styled-jsx": "3.4.1"
   },
   "devDependencies": {
     "@denkristoffer/eslint-config": "6.0.0",
