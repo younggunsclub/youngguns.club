@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/youngguns.club"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: "@types/node"
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: "@types/node"
+    versions:
+    - 15.0.0
+  - dependency-name: "@types/react"
+    versions:
+    - 17.0.0
+    - 17.0.1
+    - 17.0.2
+    - 17.0.3
+  - dependency-name: react-dom
+    versions:
+    - 17.0.1
+  - dependency-name: react
+    versions:
+    - 17.0.1
